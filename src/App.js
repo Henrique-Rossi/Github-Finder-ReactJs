@@ -61,7 +61,7 @@ class App extends Component {
 
 
   render() {
-    const { user, repos } = this.state;
+    const { user } = this.state;
    
     return (
       <div className="App">

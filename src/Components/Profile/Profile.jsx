@@ -6,7 +6,7 @@ export const Profile = ({user}) => {
         <div className="row">
             <div className="col-md-4">
                 <div className="card" style={{width:"18rem"}}>
-                    <img className="card-img-top" src={user.avatar_url}/>
+                    <img className="card-img-top" src={user.avatar_url} alt="Foto de Perfil"/>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 Repositórios:
