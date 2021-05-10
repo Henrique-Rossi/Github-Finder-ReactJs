@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #151A25!important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ *{
+  color: white;
+}
+.card {
+
+  border: 1px solid #2FEABB;
+  background-color: #151A25!important;
+  box-shadow: inset 0 0 5px #2feabb;
+  transition: transform .1s ease-in-out;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card a{
+  color: #71FFF3;
+}
+
+.card-body{
+  margin-bottom: 5%;
+}
+.card-body h1,p{
+  color: white;
+}
+.list-group-item{
+  border: 1px solid #2FEABB;
+  background-color: #151A25;
+  box-shadow: inset 0 0 5px #2feabb;
+} 
